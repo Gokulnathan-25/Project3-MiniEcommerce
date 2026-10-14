@@ -1,0 +1,12 @@
+{
+  "name": "shopora-mini-ecommerce",
+  "version": "1.0.0",
+  "description": "Full-stack mini e-commerce demo with product listings, authentication, cart, and simulated test checkout.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
